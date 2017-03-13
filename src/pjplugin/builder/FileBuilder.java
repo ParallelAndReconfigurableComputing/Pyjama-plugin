@@ -1707,7 +1707,7 @@ public class FileBuilder extends IncrementalProjectBuilder {
 									//
 									// Fix: _projectLocation is appended to jarPath
 									// which causes the path to be invalid issue
-									// 
+									//
 									nodeValue.replace("/", File.separator);
 									if (nodeValue.matches("(.*)pyjama(.*)jar")) {
 										if(!nodeValue.contains(_projectLocation.toString())){
